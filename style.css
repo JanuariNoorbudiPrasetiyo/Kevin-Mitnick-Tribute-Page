@@ -141,15 +141,28 @@ footer h2 {
 
 @media only screen and (max-width: 600px) {
     html {
-        font-size: 75%;
+        font-size: 87%;
+    }
+
+    #title {
+        font-size: 3.5rem;
+    }
+
+    .sub-title {
+        font-size: 1.2rem;
     }
 
     .caption {
         padding: 1rem;
+        padding-top: 1.5rem;
     }
 
     ul .sub-list li {
         font-size: 75%;
+    }
+
+    .tribute-link {
+        width: 60%;
     }
 
     .tribute-quote {
