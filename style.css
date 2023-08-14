@@ -1,0 +1,176 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 100%; */
+    display: block;
+    margin-top: -1.5rem;
+    color: #241f1f;
+}
+
+main {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: -35px;
+    font-style: italic;
+}
+
+.img-div {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.img-div #image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    border-radius: 10px;
+    aspect-ratio: 2/1;
+    object-fit: contain;
+    width: 100%;
+}
+
+.caption {
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
+}
+
+.tribute-title {
+    text-align: center;
+    padding: 5rem;
+}
+
+#tribute-info {
+    text-align: center;
+    margin-top: -2rem;
+    padding-bottom: 3rem;
+}
+
+.tribute-title {
+    margin-bottom: -1.5rem;
+}
+
+.tribute-ul {
+    display: inline-table;
+    margin-top: -2rem;
+    width: 70%;
+}
+
+li {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.sub-list {
+    padding-left: 1.5rem;
+}
+
+.sub-list li {
+    font-size: 16px;
+    padding: 0.3rem;
+    padding-top: 0.7rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.tribute-link {
+    text-align: left;
+    margin: auto;
+    width: 66%;
+    padding-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+.tribute-link a {
+    text-decoration: none;
+    color: rgb(67, 67, 151);
+}
+
+.tribute-quote {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #241f1f;
+    color: #e0e0e0;
+    margin-top: -2rem;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+footer h2 {
+    padding-top: 1rem;
+}
+
+.social-links {
+    color: #e0e0e0;
+    margin-right: 2rem;
+}
+
+.social-links:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 75%;
+    }
+
+    .caption {
+        padding: 1rem;
+    }
+
+    ul .sub-list li {
+        font-size: 75%;
+    }
+
+    .tribute-quote {
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        padding-bottom: 1rem;
+    }
+
+    footer h2 {
+        padding: 1rem;
+    }
+
+    .social-links {
+        margin: auto;
+        padding: 2rem;
+    }
+
+    .credit {
+        padding-top: 1rem;
+        font-size: 1.1rem;
+    }
+}
